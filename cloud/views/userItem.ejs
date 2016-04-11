@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log In App</title>
+</head>
+<body>
+<form action="/userss" method="post" id="login">
+    <h2>User Item</h2>
+
+    <input type="hidden" value="<%= objectId %>" name="objectId" />
+
+    <label for="username">Username</label>
+    <input type="text" value="<%= username %>" name="username" />
+
+    <label for="email">Email</label>
+    <input type="text" value="<%= email %>" name="email" />
+
+    <label for="tytle">Tytle</label>
+    <input type="text" value="<%= tytle %>" name="tytle" />
+
+    <input type="submit" value="Save">
+</form>
+
+</body>
+</html>

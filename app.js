@@ -2,4 +2,3 @@
 
 "use strict";
 
-/home/andrey/WebstormProjects/parsetest
